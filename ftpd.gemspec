@@ -77,10 +77,11 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/wconrad/ftpd"
   s.licenses = ["MIT"]
   s.required_ruby_version = ">= 1.9.3"
-  s.rubygems_version = "2.5.1"
+  s.rubygems_version = "3.4.8"
   s.summary = "Pure Ruby FTP server library"
   s.add_runtime_dependency("memoizer", "~> 1.0")
   s.add_development_dependency("cucumber", "~> 2.0")
+  s.add_development_dependency('pry')
   s.add_development_dependency("double-bag-ftps", "~> 0.1", ">= 0.1.4")
   s.add_development_dependency("rake", "~> 11.1")
   s.add_development_dependency("redcarpet", "~> 3.1")

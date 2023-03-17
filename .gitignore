@@ -6,3 +6,6 @@ doc-api/
 .yardoc/
 .bundle/
 spec/examples.txt
+Gemfile.lock
+.ruby-version
+.ruby-gemset

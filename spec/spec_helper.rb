@@ -107,6 +107,7 @@ require 'stringio'
 require 'thread'
 require 'timecop'
 require 'tmpdir'
+require 'pry'
 
 glob = File.expand_path('helpers/*.rb', File.dirname(__FILE__))
 Dir[glob].sort.each do |helper_path|
